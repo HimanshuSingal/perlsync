@@ -1,4 +1,4 @@
-# About
+# About:-
 
 A simple perl script to sync two folders.
 You have to give two directories as cmnd line argument. 
@@ -10,7 +10,8 @@ You have to give two directories as cmnd line argument.
 # Usage:-
 Download the file sync.pl.
 
-Run:-  perl sync.pl directory1 directory2
+Run:-  
+```perl sync.pl directory1 directory2```
 
 # Note That:-
 directory1 and directory2 should not be parent and child directories or vice-versa.

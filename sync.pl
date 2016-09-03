@@ -2,7 +2,12 @@
 
 $dir1 = @ARGV[0];
 $dir2 = @ARGV[1];
+print "$dir2\n";
 
+$dir1 =~ s! !\\ !g;
+$dir2 =~ s! !\\ !g;
+
+print "$dir2\n";
 sub searchFile{
     my $dir1 = $_[0];
     my $dir2 = $_[1];
